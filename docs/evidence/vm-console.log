@@ -1,0 +1,30 @@
+c[?7l[2J[0mSeaBIOS (version 1.16.3-debian-1.16.3-2)
+Booting from ROM...
+c[?7l[2Ja430d84680aabd0b
+PASS known FNV-1a vector
+PASS payload lengths 1 through 256 and FIFO order
+PASS invalid request size and payload bounds
+PASS invalid user pointers preserve completion
+PASS short read rejected without consuming result
+PASS nonblocking empty read
+PASS bounded queue backpressure and writable readiness
+PASS blocking read wakes on completion
+PASS blocking write wakes when a result is consumed
+PASS epoll readable completion
+PASS independent opens isolate results
+PASS signal interrupts blocking read
+PASS four shared-fd threads: no lost or duplicate results
+PASS close with outstanding work, 200 cycles
+TEST_SUMMARY scenarios=14 failed=0
+BENCHMARK_JSON_BEGIN
+{"kernel":"7.0.0-1017-azure","machine":"x86_64","payload_bytes":"1..256 deterministic","runs":[{"clients":1,"round":1,"verified_jobs":5000,"seconds":0.085592355,"jobs_per_second":58416.4322},{"clients":1,"round":2,"verified_jobs":5000,"seconds":0.08978789,"jobs_per_second":55686.797},{"clients":1,"round":3,"verified_jobs":5000,"seconds":0.086827796,"jobs_per_second":57585.2461},{"clients":1,"round":4,"verified_jobs":5000,"seconds":0.081382514,"jobs_per_second":61438.2593},{"clients":1,"round":5,"verified_jobs":5000,"seconds":0.172458927,"jobs_per_second":28992.4105},{"clients":4,"round":1,"verified_jobs":20000,"seconds":0.421035265,"jobs_per_second":47501.9592},{"clients":4,"round":2,"verified_jobs":20000,"seconds":0.453216756,"jobs_per_second":44128.9951},{"clients":4,"round":3,"verified_jobs":20000,"seconds":0.464341172,"jobs_per_second":43071.7783},{"clients":4,"round":4,"verified_jobs":20000,"seconds":0.392342088,"jobs_per_second":50975.9228},{"clients":4,"round":5,"verified_jobs":20000,"seconds":0.470158815,"jobs_per_second":42538.8174}],"latency":{"samples":1000,"p50_us":178.463,"p95_us":320.117,"p99_us":400.176,"max_us":923.271}}
+BENCHMARK_JSON_END
+a430d84680aabd0b
+a430d84680aabd0b
+a430d84680aabd0b
+a430d84680aabd0b
+a430d84680aabd0b
+MODULE_RELOAD_CYCLES=5
+KERNEL_DIAGNOSTICS_CLEAN
+KERNQUEUE_VM_PASS
+[    7.612895] reboot: Power down

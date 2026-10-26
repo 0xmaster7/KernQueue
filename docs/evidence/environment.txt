@@ -1,0 +1,11 @@
+2026-10-26T12:49:11Z
+Linux pancakes 6.17.0-1022-azure #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+QEMU emulator version 8.2.2 (Debian 1:8.2.2+ds-0ubuntu1.18)
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Guest: TCG software emulation, 4 vCPUs, 512 MiB RAM, network disabled
+2d8e98279910bfe68bbb471cad404ca9e95b941a148524f962a2635a91f94b76  kernel/kernqueue.ko
+2ce2eb16018a24ee63b9a5bd223dee0cdd33477ea115fc5b4ff6ffef3cbbe855  build/kqctl
+1499d4e93269e5607c0aed401f55a6c256d4ca82e91b6b79f4032d0a181f22e5  build/vmlinuz
+9a8da1d36cbbb524c461e6a2aef084a97c1655c64b848aae5c6628a9c1a08923  kernel/kernqueue.c
+219c99bac86a2840055263b8771d37dc1057821ec791872bc00d00dfcd05706d  tools/kqctl.cpp
+9b611009e721095f9f72a33bf3993afbfaed04f91c6d3a574cc70a3ccf1fdc20  include/kernqueue.h

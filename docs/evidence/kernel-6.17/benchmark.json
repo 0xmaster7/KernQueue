@@ -1,0 +1,84 @@
+{
+  "kernel": "6.17.0-1022-azure",
+  "machine": "x86_64",
+  "payload_bytes": "1..256 deterministic",
+  "runs": [
+    {
+      "clients": 1,
+      "round": 1,
+      "verified_jobs": 5000,
+      "seconds": 0.11511018,
+      "jobs_per_second": 43436.6448
+    },
+    {
+      "clients": 1,
+      "round": 2,
+      "verified_jobs": 5000,
+      "seconds": 0.096650065,
+      "jobs_per_second": 51733.0226
+    },
+    {
+      "clients": 1,
+      "round": 3,
+      "verified_jobs": 5000,
+      "seconds": 0.108746495,
+      "jobs_per_second": 45978.4934
+    },
+    {
+      "clients": 1,
+      "round": 4,
+      "verified_jobs": 5000,
+      "seconds": 0.10434218,
+      "jobs_per_second": 47919.2595
+    },
+    {
+      "clients": 1,
+      "round": 5,
+      "verified_jobs": 5000,
+      "seconds": 0.110973242,
+      "jobs_per_second": 45055.9064
+    },
+    {
+      "clients": 4,
+      "round": 1,
+      "verified_jobs": 20000,
+      "seconds": 0.468670426,
+      "jobs_per_second": 42673.9109
+    },
+    {
+      "clients": 4,
+      "round": 2,
+      "verified_jobs": 20000,
+      "seconds": 0.482095725,
+      "jobs_per_second": 41485.5369
+    },
+    {
+      "clients": 4,
+      "round": 3,
+      "verified_jobs": 20000,
+      "seconds": 0.539710683,
+      "jobs_per_second": 37056.8911
+    },
+    {
+      "clients": 4,
+      "round": 4,
+      "verified_jobs": 20000,
+      "seconds": 0.374445313,
+      "jobs_per_second": 53412.339
+    },
+    {
+      "clients": 4,
+      "round": 5,
+      "verified_jobs": 20000,
+      "seconds": 0.473985477,
+      "jobs_per_second": 42195.3857
+    }
+  ],
+  "latency": {
+    "samples": 1000,
+    "p50_us": 240.62,
+    "p95_us": 386.903,
+    "p99_us": 633.304,
+    "max_us": 1257.311
+  }
+}
